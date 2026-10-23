@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+phase1_output/
+phase1_output_run.log
+datasets/
+.env
+*.env
+.env.*
+.idea/
