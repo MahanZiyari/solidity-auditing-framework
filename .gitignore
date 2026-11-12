@@ -1,9 +1,37 @@
+# --- Python environment, bytecode and tool caches ---
 .venv/
 __pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Generated Phase 1 outputs and run logs ---
 phase1_output/
-phase1_output_run.log
+*.log
+
+# --- Datasets: re-downloaded from public sources, not versioned ---
 datasets/
+
+# --- Secrets ---
 .env
 *.env
 .env.*
+
+# --- Static-analysis tool artifacts ---
+crytic-export/
+
+# --- Thesis documentation (kept local, not versioned) ---
+phase1_implementation_report.md
+phase1_status_report.md
+unified_payload_report.md
+
+# --- Editors and operating system ---
 .idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
